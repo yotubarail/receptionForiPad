@@ -14,6 +14,9 @@
 		5D4EEB1924FF24E8002DBF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EEB1824FF24E8002DBF3C /* Assets.xcassets */; };
 		5D4EEB1C24FF24E8002DBF3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EEB1B24FF24E8002DBF3C /* Preview Assets.xcassets */; };
 		5D4EEB1F24FF24E8002DBF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D4EEB1D24FF24E8002DBF3C /* LaunchScreen.storyboard */; };
+		5D4EEB2724FF2578002DBF3C /* NextReceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EEB2624FF2578002DBF3C /* NextReceptionView.swift */; };
+		5D4EEB2924FF25D5002DBF3C /* MemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EEB2824FF25D5002DBF3C /* MemberView.swift */; };
+		5D4EEB2B24FF25FB002DBF3C /* LastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4EEB2A24FF25FB002DBF3C /* LastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5D4EEB1B24FF24E8002DBF3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D4EEB1E24FF24E8002DBF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4EEB2024FF24E8002DBF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4EEB2624FF2578002DBF3C /* NextReceptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextReceptionView.swift; sourceTree = "<group>"; };
+		5D4EEB2824FF25D5002DBF3C /* MemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberView.swift; sourceTree = "<group>"; };
+		5D4EEB2A24FF25FB002DBF3C /* LastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				5D4EEB0F24FF24E7002DBF3C /* AppDelegate.swift */,
 				5D4EEB1124FF24E7002DBF3C /* SceneDelegate.swift */,
 				5D4EEB1624FF24E7002DBF3C /* ContentView.swift */,
+				5D4EEB2624FF2578002DBF3C /* NextReceptionView.swift */,
+				5D4EEB2824FF25D5002DBF3C /* MemberView.swift */,
+				5D4EEB2A24FF25FB002DBF3C /* LastView.swift */,
 				5D4EEB1824FF24E8002DBF3C /* Assets.xcassets */,
 				5D4EEB1D24FF24E8002DBF3C /* LaunchScreen.storyboard */,
 				5D4EEB2024FF24E8002DBF3C /* Info.plist */,
@@ -149,6 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D4EEB2924FF25D5002DBF3C /* MemberView.swift in Sources */,
+				5D4EEB2724FF2578002DBF3C /* NextReceptionView.swift in Sources */,
+				5D4EEB2B24FF25FB002DBF3C /* LastView.swift in Sources */,
 				5D4EEB1024FF24E7002DBF3C /* AppDelegate.swift in Sources */,
 				5D4EEB1524FF24E7002DBF3C /* receptionForiPad.xcdatamodeld in Sources */,
 				5D4EEB1724FF24E7002DBF3C /* ContentView.swift in Sources */,
@@ -293,6 +305,7 @@
 				DEVELOPMENT_TEAM = 3BFQNC3WZZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = receptionForiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = on.yotubarail.receptionForiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,6 +326,7 @@
 				DEVELOPMENT_TEAM = 3BFQNC3WZZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = receptionForiPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = on.yotubarail.receptionForiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
