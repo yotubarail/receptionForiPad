@@ -33,5 +33,14 @@ struct LastView: View {
             Spacer()
         .navigationBarBackButtonHidden(true)
         }
+        .onAppear() {
+            self.timer()
+        }
+    }
+    
+    func timer() {
+        _ = Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { timer in
+            self.isFirstViewActive = false
+        }
     }
 }
